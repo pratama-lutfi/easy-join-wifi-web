@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import type { WiFiConfig } from '../types';
+import type { WiFiConfig } from '@/types';
 
 export function useWiFiString(config: WiFiConfig): string {
     return useMemo(() => {

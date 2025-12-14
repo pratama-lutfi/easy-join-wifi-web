@@ -1,8 +1,8 @@
 import { useRef } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 import { Printer, Download, QrCode } from 'lucide-react';
-import type { WiFiConfig } from '../types';
-import { useWiFiString } from '../hooks/useWiFiString';
+import type { WiFiConfig } from '@/types';
+import { useWiFiString } from '@/hooks/useWiFiString';
 
 interface QRCodeDisplayProps {
     config: WiFiConfig;

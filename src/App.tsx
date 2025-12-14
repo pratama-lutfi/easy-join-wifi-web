@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Layout } from './components/Layout';
-import { WiFiForm } from './components/WiFiForm';
-import { QRCodeDisplay } from './components/QRCodeDisplay';
-import type { WiFiConfig } from './types';
+import { Layout } from '@/components/Layout';
+import { WiFiForm } from '@/components/WiFiForm';
+import { QRCodeDisplay } from '@/components/QRCodeDisplay';
+import type { WiFiConfig } from '@/types';
 
 function App() {
   const [config, setConfig] = useState<WiFiConfig>({

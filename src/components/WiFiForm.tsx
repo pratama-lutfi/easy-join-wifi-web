@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Eye, EyeOff, Wifi } from 'lucide-react';
-import type { WiFiConfig, EncryptionType } from '../types';
+import type { WiFiConfig, EncryptionType } from '@/types';
 
 interface WiFiFormProps {
     config: WiFiConfig;
@@ -10,7 +10,7 @@ interface WiFiFormProps {
 export function WiFiForm({ config, onChange }: WiFiFormProps) {
     const [showPassword, setShowPassword] = useState(false);
 
-    const handleChange = (key: keyof WiFiConfig, value: any) => {
+    const handleChange = (key: keyof WiFiConfig, value: WiFiConfig[keyof WiFiConfig]) => {
         onChange({ ...config, [key]: value });
     };
 
