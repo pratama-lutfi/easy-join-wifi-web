@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Layout>
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 w-full justify-center items-center">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 w-full justify-center">
         <div className="w-full max-w-md mx-auto lg:mx-0">
           <WiFiForm config={config} onChange={setConfig} />
         </div>
