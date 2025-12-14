@@ -14,7 +14,7 @@ export function Layout({ children }: LayoutProps) {
                         <img src="/logo.png" alt="Easy Join Wi-Fi Logo" className="relative w-20 h-20 rounded-2xl shadow-2xl mb-2 object-cover" />
                     </div>
                     <h1 className="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-indigo-200 tracking-tight drop-shadow-sm">
-                        Easy Join Wi-Fi
+                        Easy Join Wi-Fi test vercel
                     </h1>
                     <p className="text-blue-200/80 text-lg font-medium">
                         Share your Wi-Fi instantly with a secure QR code.
